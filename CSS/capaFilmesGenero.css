@@ -1,0 +1,138 @@
+.principal{
+    background-color: black;
+    background-image: url(../IMAGENS/logo.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.secundario{ 
+    display: inline-block;
+    margin-left: 80%;
+    margin-top: 0%;
+    padding: 1.6%;
+    padding-top:4%; 
+    padding-bottom: 3%; 
+    background-color: solid rgb(243, 53, 53);
+}
+
+.secundario:hover{
+    background-color: rgb(243, 53, 53);
+    transition: 0.8s;
+    #contato{
+    color:black;
+    }
+}
+
+.terciario{
+
+    display: inline-block;
+    margin-left: -4px;
+    border-left: 0px;
+    margin-top: 0%;
+    padding: 1.6%;
+    padding-top: 4%;
+    padding-bottom:3%;
+    padding-right: 2.50%;
+    background-color: solid rgb(243, 53, 53);
+}
+
+.terciario:hover{
+    background-color: rgb(243, 53, 53);
+    transition: 0.8s;
+    #sobre{
+    color: black;
+    }
+}
+
+
+#contato{
+    color: rgb(243, 53, 53);
+    font-size: 188.49%;
+    font-family:Impact;
+    text-decoration: none;    
+}
+
+
+#sobre{
+    color: rgb(243, 53, 53);
+    font-size: 187.50%;
+    font-family:impact;
+    text-decoration: none; 
+}
+
+.linksLateraisPrincipal{
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+    border-right: 1px solid white;
+    display: flex; 
+}
+
+.linksLateraisSecundario{
+    border-right: 1px solid white;
+    border-bottom:1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 1.50%;
+   
+}
+
+.links{
+    font-size: 157%;
+    font-family:impact;
+}
+
+.espaçamento{
+   
+    padding: 50%;
+    padding-left:16%;
+    padding-right:100%;
+}
+
+.espaçamento:hover{
+    background-color: rgb(243, 53, 53);
+    transition: 0.8s;
+    .links{
+    color: black;
+    }
+}
+
+body{
+    background-color: black;
+}
+
+.filmesEspaço{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-content:space-around;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(243, 53, 53);
+}
+
+.genero{
+    color: red;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    color: rgb(243, 53, 53);
+    font-size: 90%;
+    gap: 10%;
+    font-family:impact;
+    font-size: 157%;
+    text-decoration: none; 
+}
+
+figure{
+    color:rgb(243, 53, 53);
+    align-items: center;
+    font-family:impact;
+
+}
