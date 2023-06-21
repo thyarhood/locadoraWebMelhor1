@@ -105,11 +105,9 @@ body{
 
 .filmesEspaço{
     display: flex;
+    flex-direction:column;
     width: 100%;
-    justify-content:center;
-    flex-wrap: wrap;
-    align-content:space-around;
-    gap: 20px;
+    justify-content:space-between;
 }
 
 a{
@@ -128,6 +126,7 @@ a{
     font-family:impact;
     font-size: 157%;
     text-decoration: none; 
+    margin-top:20px;
 }
 
 figure{
@@ -135,4 +134,24 @@ figure{
     align-items: center;
     font-family:impact;
 
+}
+
+scroll-container{
+   
+    display:flex;
+    margin: auto;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 700px;
+    height: 400px;
+
+}
+
+scroll-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
 }
