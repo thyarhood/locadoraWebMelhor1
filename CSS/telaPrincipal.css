@@ -1,0 +1,144 @@
+.principal{
+    background-color: black;
+    background-image: url(../IMAGENS/logo.png);
+    background-repeat: no-repeat;
+    width: 100%;
+   
+
+    
+}
+
+.secundario{ 
+
+    display: inline-block;
+    margin-left: 80%;
+    margin-top: 0%;
+    padding: 1.6%;
+    padding-top:4%; 
+    padding-bottom: 3%; 
+    background-color: solid rgb(243, 53, 53);
+}
+
+.secundario:hover{
+    background-color: rgb(243, 53, 53);
+    transition: 0.8s;
+    #contato{
+    color:black;
+    }
+}
+
+.terciario{
+
+    display: inline-block;
+    margin-left: -4px;
+    border-left: 0px;
+    margin-top: 0%;
+    padding: 1.6%;
+    padding-top: 4%;
+    padding-bottom:3%;
+    padding-right: 2.50%;
+    background-color: solid rgb(243, 53, 53);
+    
+
+}
+
+.terciario:hover{
+    background-color: rgb(243, 53, 53);
+    transition: 0.8s;
+    #sobre{
+    color: black;
+    }
+    
+}
+
+
+#contato{
+    color: rgb(243, 53, 53);
+    font-size: 188.49%;
+    font-family:Impact;
+    text-decoration: none;    
+}
+
+
+#sobre{
+    color: rgb(243, 53, 53);
+    font-size: 187.50%;
+    font-family:impact;
+    text-decoration: none; 
+}
+
+.linksLateraisPrincipal{
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom:1px solid white;
+    border-left:1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+}
+
+.linksLateraisSecundario{
+    border-right: 1px solid white;
+    border-bottom:1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.links{
+    font-size: 157%;
+    font-family:impact;
+}
+
+.espaçamento{
+    padding: 33.50%;
+    padding-left: 15%;
+    padding-right:15%;
+
+  
+}
+
+.espaçamento:hover{
+    background-color: rgb(243, 53, 53);
+    transition: 0.8s;
+    .links{
+    color: black;
+    }
+
+}
+
+body{
+    background-color: black;
+}
+
+.descrição{
+margin: auto;
+color:rgb(243, 53, 53);
+font-size: 157%;
+font-family:impact;
+}
+
+a{
+text-decoration: none;
+color: rgb(243, 53, 53);
+}
+
+scroll-container{
+   
+    display:block;
+    margin:auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    width: 700px;
+    height: 400px;
+
+}
+
+scroll-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+

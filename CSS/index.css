@@ -1,0 +1,34 @@
+.principal{
+    font-size: 25px;
+    background-image: url(../IMAGENS/mixImagens.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.espaçamento{
+    padding: 10%;
+    font-family: sans-serif;
+    color: rgb(243, 53, 53);
+}
+
+.agrupamento{
+    background-color : rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+
+#espaço{
+    margin-right: 0.8cm;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(243, 53, 53);
+}
+
+body{
+    background-color: black;
+}
